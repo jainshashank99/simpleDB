@@ -12,6 +12,7 @@ import simpledb.index.Index;
  * @author Edward Sciore
  */
 public class HashIndex implements Index {
+	
 	public static int NUM_BUCKETS = 100;
 	private String idxname;
 	private Schema sch;
